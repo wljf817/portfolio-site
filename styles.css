@@ -108,6 +108,20 @@ h2 {
   font-style: italic;
 }
 
+.disclaimer summary {
+  margin-bottom: 20px;
+  color: #6c4bd3;
+  font-weight: bold;
+  font-style: normal;
+  cursor: pointer;
+}
+
+.disclaimer h4 {
+  margin-bottom: 5px;
+  color: #2d2438;
+  font-style: normal;
+}
+
 .project-image {
   width: 100%;
   max-width: 550px;
