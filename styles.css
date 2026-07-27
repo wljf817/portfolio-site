@@ -8,7 +8,7 @@ body {
 }
 
 header {
-  padding: 40px 20px;
+  padding: 40px;
   color: white;
   background-color: #6c4bd3;
   text-align: center;
@@ -165,24 +165,4 @@ footer {
 
 footer a {
   color: white;
-}
-
-/* Make the page easier to read on small screens */
-@media (max-width: 700px) {
-  .about-content {
-    flex-direction: column;
-  }
-
-  .about-content img {
-    width: 100%;
-  }
-
-  .project-list {
-    grid-template-columns: 1fr;
-  }
-
-  nav a {
-    display: block;
-    margin: 8px;
-  }
 }
