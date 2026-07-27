@@ -1,0 +1,5 @@
+# Temporary preview files
+tmp/
+
+# macOS files
+.DS_Store

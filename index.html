@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sakana's Portfolio</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <h1>Sakana's Portfolio</h1>
+    <p>Welcome to my first portfolio website!</p>
+    <nav>
+      <a href="#about">About Me</a>
+      <a href="#projects">Projects</a>
+      <a href="#skills">Skills</a>
+    </nav>
+  </header>
+
+  <main>
+    <section id="about">
+      <h2>About Me</h2>
+      <div class="about-content">
+        <img src="assets/osaka-oh-my-gah.png" alt="Osaka saying Oh My Gah">
+        <div>
+          <p>Hello! My name is Sakana. I am learning web development, Python, and data analysis.</p>
+          <p>I enjoy making fun webpages and using data to answer interesting questions. This website is a collection of projects I created during class.</p>
+          <h3>Things I am interested in:</h3>
+          <ul>
+            <li>HTML and CSS</li>
+            <li>Python and Pandas</li>
+            <li>Games and creative projects</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <section id="projects">
+      <h2>My Projects</h2>
+      <div class="project-list">
+        <article class="project-card">
+          <h3>Oh My Gah Webpage</h3>
+          <p>This is my first HTML and CSS experiment. It includes headings, lists, links, an image, and a table.</p>
+          <a class="button" href="ohmygah.html">View webpage</a>
+        </article>
+
+        <article class="project-card">
+          <h3>Philadelphia Crime Analysis</h3>
+          <p>I used Pandas and Matplotlib to explore where and when crime incidents happened in Philadelphia.</p>
+          <a class="button" href="projects/philly-crime-analysis.ipynb" download>Download Notebook</a>
+          <a class="small-link" href="projects/incidents_part1_part2.csv" download>Download dataset</a>
+        </article>
+
+        <article class="project-card">
+          <h3>Game Project</h3>
+          <p>This is a temporary game concept PDF. I can replace it with my finished Game Project PDF later.</p>
+          <a class="button" href="output/pdf/game-project-placeholder.pdf" target="_blank">Open PDF</a>
+        </article>
+      </div>
+    </section>
+
+    <section id="skills">
+      <h2>What I Am Learning</h2>
+      <ol>
+        <li>Writing pages with HTML</li>
+        <li>Adding colors and spacing with CSS</li>
+        <li>Analyzing data with Python and Pandas</li>
+        <li>Saving and publishing projects with GitHub</li>
+      </ol>
+    </section>
+  </main>
+
+  <footer>
+    <p>Created by Sakana · 2026</p>
+  </footer>
+</body>
+</html>
